@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <p>{{ content }}</p>
+    <p> {{ something }} </p>
+    <p> {{ list }} </p>
+    <p> {{ dict }} </p>
+    <p> {{ bool }} </p>
+<br>
+    {%if loged_in%}
+    <p> {{ list.0 }} </p>
+    <p> {{ dict.first }} </p>
+    <p> {{ dict.second }} </p>
+    {%endif%}
+</body>
+</html>
